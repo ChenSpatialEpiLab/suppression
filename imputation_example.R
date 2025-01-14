@@ -3,6 +3,8 @@
 # The example data has mortality by state, year, race/ethnicity, and gender.
 # We impute by drawing from integers between 1 and 9 with equal probability, and store the imputed datasets
 # in a list object.
+# Note that the imputation is not using any other information (other than the bounds for the suppressed count)
+# to impute the missing value.
 # We then run an analysis (in this example, computing age standardized rates), and
 # combine the results using Rubin's rules.
 
